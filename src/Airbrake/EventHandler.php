@@ -26,14 +26,14 @@ class EventHandler
                                        \E_USER_NOTICE     => 'User Notice',
                                        \E_DEPRECATED      => 'Deprecated',
                                        \E_USER_DEPRECATED => 'User Deprecated',
-                                       \E_CORE_WARNING    => 'Core Warning' );
+                                       \E_CORE_WARNING    => 'Core Warning',
+                                       \E_WARNING         => 'Warning' );
 
     protected $fatalErrors = array ( \E_ERROR             => 'Error',
                                      \E_PARSE             => 'Parse',
                                      \E_COMPILE_WARNING   => 'Compile Warning',
                                      \E_COMPILE_ERROR     => 'Compile Error',
                                      \E_CORE_ERROR        => 'Core Error',
-                                     \E_WARNING           => 'Warning',
                                      \E_USER_ERROR        => 'User Error',
                                      \E_RECOVERABLE_ERROR => 'Recoverable Error' );
     
